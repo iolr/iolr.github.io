@@ -75,6 +75,11 @@
     <div id="side-posttitle" style="display: none;">
         
     
+    你好
+    <script>postsnum += 1</script>
+    
+    
+    
     
     
     Hello Gridea
@@ -94,7 +99,7 @@
         <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
                     src='https://iolr.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         <div class="avatar-border">
-            <img src="https://iolr.github.io/images/avatar.png?v=1614233511684" class="avatar">
+            <img src="https://iolr.github.io/images/avatar.png?v=1614236802823" class="avatar">
         </div>
         <div class="sitename">WoZlent</div>
         <span class="describtion" data-text='["小伙伴们的交流网站"]'>&nbsp;</span>
@@ -108,16 +113,22 @@
     <div class="share-button">
         <span>社交按钮</span>
         
+        <a href="https://gist.github.com/iolr" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="https://iolr.github.io/media/images/github.png" alt=""></i></a>
+        
         
         <a onclick="showqq()"><i style="font-size: 20px;"><img class="icon"
                     src="https://iolr.github.io/media/images/QQ.png" alt=""></i></a>
         
         
         
+        <a href="https://space.bilibili.com/89359908" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="https://iolr.github.io/media/images/bilibili.png" alt=""></i></a>
+        
         
         
     </div>
-    <div id="qq" style="display:none">34804407885</div>
+    <div id="qq" style="display:none">3480440785</div>
     
     
     <div class="mchocie describtion">
@@ -191,7 +202,7 @@
                 
                 <div id="sitegotimeDate">载入天数...</div>
                 <div id="sitegotimes">载入时分秒...</div>
-                <div id="cussitetime" style="display:none">02/02/2020</div>
+                <div id="cussitetime" style="display:none">25/02/2021</div>
                 
             </div>
             <div>
@@ -207,7 +218,7 @@
                 </div>
                 
             </div>
-            <div class="copyright" style="color:white;text-align: center;">Copyright © 2020  备案号: 鄂ICP备...号
+            <div class="copyright" style="color:white;text-align: center;">Copyright © 2021
             </div>
         </div>
 
@@ -420,7 +431,7 @@
         let talkindex = 0;
         get();
         function get() {
-            var t = JSON.parse('[]');
+            var t = JSON.parse('[{"author":"旿鸷","img":"","text":"希望大家支持","time":"2021/2/25"},{"author":"旿鸷","img":"","text":"中考加油","time":"2020/2/25"}]');
             talkindex = t.length - 1;
             for (var i = 0; i <= t.length - 1; i++) {
                 var d = {};
@@ -452,7 +463,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://iolr.github.io/images/avatar.png?v=1614233511684">\
+                        <img class="intro1" src="https://iolr.github.io/images/avatar.png?v=1614236802823">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -465,7 +476,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://iolr.github.io/images/avatar.png?v=1614233511684">\
+                        <img class="intro1" src="https://iolr.github.io/images/avatar.png?v=1614236802823">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -996,9 +1007,9 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <script>
     function aplayerInit() {
-        var aplayerid = "";
+        var aplayerid = "5424012194";
         var aplayerserver = "netease";
-        var aplayerorder = "default";
+        var aplayerorder = "random";
         var aplayerautoplay = "false";
         var aplayer = $("#myaplayer");
         aplayer.attr("server", aplayerserver);
@@ -1047,10 +1058,10 @@
         </div>
         <div id="bg">
         </div>
-        <div id="bgchoice" style="display: none">default
+        <div id="bgchoice" style="display: none">link
             </div>
             
-            <div id="bgurl" style="display:none">/media/images/bgimg.png</div>
+            <div id="bgurl" style="display:none">https://img-u-0.51miz.com/preview/element/00/01/12/64/E-1126488-1DE8CA3A.jpg!/quality/90/unsharp/true/compress/true/format/jpg/fh/260</div>
                
     </div>
     
@@ -1095,7 +1106,7 @@
     add();
 
     function get() {
-        var t = JSON.parse('[]');
+        var t = JSON.parse('[{"author":"旿鸷","img":"","text":"希望大家支持","time":"2021/2/25"},{"author":"旿鸷","img":"","text":"中考加油","time":"2020/2/25"}]');
         talkindex = t.length - 1;
         for (var i = 0; i <=t.length - 1; i++) {
             var d = {};
@@ -1127,7 +1138,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://iolr.github.io/images/avatar.png?v=1614233511684">\
+                        <img class="intro1" src="https://iolr.github.io/images/avatar.png?v=1614236802823">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -1140,7 +1151,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://iolr.github.io/images/avatar.png?v=1614233511684">\
+                        <img class="intro1" src="https://iolr.github.io/images/avatar.png?v=1614236802823">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\

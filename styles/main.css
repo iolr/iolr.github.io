@@ -2344,3 +2344,32 @@ a {
     display: none;
   }
 }
+
+      .posttitlewithoutimg {
+        color: #f8f9fa;
+      }
+    
+      .sitename {
+        color: #dbe4ff;
+      }
+    
+        .describtion {
+          color: #ffe3e3;
+        }
+      
+        .menubutton {
+          color: #edf2ff;
+        }
+      
+        .posttitle {
+          color: #adb5bd;
+        }
+      
+        #sitegotimeDate,#sitegotimes,#footinfo,#footinfo a{
+          color: #91a7ff;
+        }
+      
+        .mobiledescribtion{
+          color: #91a7ff;
+        }
+      
